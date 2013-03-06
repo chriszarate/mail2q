@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<link href="http://fonts.googleapis.com/css?family=Arvo:regular,italic,bold" rel="stylesheet" type="text/css">
+		<link href="/style.css" rel="stylesheet" type="text/css">
+
+		<title>Mail2Q.com - Add titles to your Netflix queue via e-mail or Twitter</title>
+
+	</head>
+
+	<body>
+
+
+		<header id="About">
+
+			<div>
+
+				<h1>Mail2Q</h1>
+
+				<p>E-mail the title of a movie or TV show to <a href="&#109;&#x61;&#105;&#x6C;&#116;&#x6F;&#58;%6E&#x65;&#116;%66&#x6C;&#105;%78&#x40;&#109;%61&#x69;&#108;%32&#x71;&#46;%63&#x6F;&#109;"><strong>&#x6E;&#101;&#x74;&#102;&#x6C;&#105;&#x78;&#64;&#x6D;&#97;&#x69;&#108;&#x32;&#113;&#x2E;&#99;&#x6F;&#109;</strong></a> or <span class="hilite">tweet it <a href="http://twitter.com/netflixq"><strong>@netflixq</strong></a></span> and we’ll add it to your <a href="http://www.netflix.com">Netflix</a> queue immediately.</p>
+
+			</div>
+
+		</header>
+
+
+		<section id="Start">
+
+			<div>
+
+				<h3><label for="email">Enter your e-mail address or Twitter handle.</label></h3>
+
+				<form action="link" method="post">
+					<fieldset>
+						<input id="handle" name="handle" type="text" required="required" value="user@example.com" onclick="clearTimeout(t); this.value = ''; this.style.color = '#000';"> &#160;
+						<input id="submit" name="submit" type="submit" value="register">
+					</fieldset>
+					<p><small>No marketing, newsletters, spam, or sharing your information—ever.</small></p>
+				</form>
+
+				<p><strong>What happens on the next screen?</strong> We need your permission to add things to your queue, so you’ll be sent to Netflix to approve our request. You’ll be sent back here when you’re done.</p>
+
+			</div>
+
+		</section>
+
+
+		<section id="FAQ">
+
+			<div>
+
+				<h3>Frequently Asked Questions</h3>
+
+				<h4>How do I format my email?</h4>
+				<p>Put the title—or multiple titles up to a maximum of five, one per line—in the body of your message. For example:</p>
+
+				<blockquote>
+					<code>
+						To: &#x6E;&#101;&#x74;&#102;&#x6C;&#105;&#x78;&#64;&#x6D;&#97;&#x69;&#108;&#x32;&#113;&#x2E;&#99;&#x6F;&#109;<br>
+						Subject: [no subject]<br><br>
+						The Big Lebowski
+					</code>
+				</blockquote>
+
+				<blockquote>
+					<code>
+						To: &#x6E;&#101;&#x74;&#102;&#x6C;&#105;&#x78;&#64;&#x6D;&#97;&#x69;&#108;&#x32;&#113;&#x2E;&#99;&#x6F;&#109;<br>
+						Subject: [no subject]<br><br>
+						The Wire Season 1<br>
+						The Wire Season 2<br>
+						The Wire Season 3<br>
+						The Wire Season 4<br>
+						The Wire Season 5
+					</code>
+				</blockquote>
+
+				<h4>How do I format my tweet?</h4>
+				<p>Put the title in your tweet and mention @netflixq:</p>
+
+				<blockquote>
+					<code>@netflixq Amelie</code>
+				</blockquote>
+
+				<p>Put quotes around the title if you want to spruce up your tweet or add multiple titles:</p>
+				
+				<blockquote>
+					<code>@netflixq How about "Mad Men Season 1"?</code>
+				</blockquote>
+
+				<blockquote>
+					<code>Sunday afternoon plans: "Godfather" and "Godfather Part II". Thanks @netflixq!</code>
+				</blockquote>
+
+				<p>You can also send a direct message (DM) to netflixq:</p>
+
+				<blockquote>
+					<code>d netflixq Children of Men</code>
+				</blockquote>
+
+				<blockquote>
+					<code>d netflixq "Before Sunrise" "Before Sunset"</code>
+				</blockquote>
+
+				<h4>Which queue will they be added to? DVD or Instant?</h4>
+				<p>If the title is available to watch instantly—either now or in the very near future—it is added to your instant queue. Otherwise, it is added to your disc queue (DVD or Blu-Ray). If you prefer that titles be added to your disc queue no matter what, put “disc” in the subject line. In a tweet, include the hash tag #disc.</p>
+				<p>By default, titles are added to the bottom of your queue. If you prefer that they be added to the top of your queue, put “top” in the subject line. In a tweet, include the hash tag #top.</p>
+
+				<h4>How do I know if a title was successfully added to my queue?</h4>
+				<p>Depending on how you contacted us, we reply with a short confirmation e-mail, tweet, or direct message. (You must <a href="http://twitter.com/home?status=follow+netflixq">follow @netflixq</a> to receive direct messages from us.)</p>
+
+				<h4>I want to add the classic Hitchcock thriller <em>Psycho</em> (1960) to my queue. How do you know I don’t want the Gus Van Sant remake <em>Psycho</em> (1998)?</h4>
+				<p>Well, we don’t read minds! We just take the top search result on Netflix for the title you supply. More often than not, it’s the one you want. But if the name is quite common, supplying the year or an actor’s name can help refine the results.</p>
+
+				<h4>Could someone spoof my e-mail address and add movies to my queue without my permission?</h4>
+				<p>We have some safeguards in place to prevent this exceedingly unlikely scenario. In addition, the confirmation e-mails would alert you right away to suspicious activity.</p>
+
+				<h4>Do you keep track of what I add to my queue?</h4>
+				<p>No. We do not keep any trace of the e-mails or tweets you send to us and we do not request any information from your Netflix account beyond what is strictly necessary to add something to your queue. Because we store only a salted hash of your e-mail address or twitter handle, unsolicited contact is impossible.</p>
+				<p>At any time, you can <a href="http://www.netflix.com/ThirdPartyAccess">remove Mail2Q</a> from your Netflix account and you’ll never hear from us again.</p>
+
+			</div>
+
+		</section>
+
+
+		<footer id="SmallPrint">
+
+			<div>
+				<p><small>This site is a free service provided without warranty. Media information is <a href="http://www.netflix.com">delivered by Netflix</a>. All rights reserved. Twitter icon by <a href="http://www.iconshock.com">iconshock</a>.</small></p>
+				<p><small>Questions? Please contact <a href="&#109;&#x61;&#105;&#x6C;&#116;&#x6F;&#58;%61&#x64;&#109;%69&#x6E;&#64;%6D&#x61;&#105;%6C&#x32;&#113;%2E&#x63;&#111;%6D">&#x61;&#100;&#x6D;&#105;&#x6E;&#64;&#x6D;&#97;&#x69;&#108;&#x32;&#113;&#x2E;&#99;&#x6F;&#109;</a>.</small></p>
+			</div>
+
+		</footer>
+
+
+		<script>
+			var on  = function () { document.getElementById('handle').value='user@example.com'; t = setTimeout(off, 3000); };
+			var off = function () { document.getElementById('handle').value='@twitteruser'; t = setTimeout(on, 3000); };
+			var t   = setTimeout(off, 3000);
+		</script>
+
+
+	</body>
+
+</html>

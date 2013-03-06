@@ -1,0 +1,35 @@
+#php_flag log_errors on
+
+RewriteEngine On
+RewriteRule ^(error|link|mail)$ $1.php [L]
+RewriteRule ^link/([A-z0-9\-_]{27})$ link.php?email_hash=$1 [L,QSA]
+
+ErrorDocument 400 /error.php?error_code=400
+ErrorDocument 401 /error.php?error_code=401
+ErrorDocument 402 /error.php?error_code=402
+ErrorDocument 403 /error.php?error_code=403
+ErrorDocument 404 /error.php?error_code=404
+ErrorDocument 405 /error.php?error_code=405
+ErrorDocument 406 /error.php?error_code=406
+ErrorDocument 407 /error.php?error_code=407
+ErrorDocument 408 /error.php?error_code=408
+ErrorDocument 409 /error.php?error_code=409
+ErrorDocument 410 /error.php?error_code=410
+ErrorDocument 411 /error.php?error_code=411
+ErrorDocument 412 /error.php?error_code=412
+ErrorDocument 413 /error.php?error_code=413
+ErrorDocument 414 /error.php?error_code=414
+ErrorDocument 415 /error.php?error_code=415
+ErrorDocument 416 /error.php?error_code=416
+ErrorDocument 417 /error.php?error_code=417
+ErrorDocument 425 /error.php?error_code=425
+ErrorDocument 426 /error.php?error_code=426
+ErrorDocument 500 /error.php?error_code=500
+ErrorDocument 501 /error.php?error_code=501
+ErrorDocument 502 /error.php?error_code=502
+ErrorDocument 503 /error.php?error_code=503
+ErrorDocument 504 /error.php?error_code=504
+ErrorDocument 505 /error.php?error_code=505
+ErrorDocument 506 /error.php?error_code=506
+ErrorDocument 509 /error.php?error_code=509
+ErrorDocument 510 /error.php?error_code=510

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /link
+Disallow: /error
+Disallow: /done
